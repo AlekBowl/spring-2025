@@ -5,12 +5,13 @@
 #12DA84 10%
 */
 :root {
+
 /* var(--primaryColor) !important; */
---primarycolor: #300354
+--primarycolor: #300354;
 
 /* var(--secondaryColor) !important; */
---secondarycolor: #543054
+--secondarycolor: #543054;
 
 /* var(--accentColor) !important; */
---accentcolor: #12da84
+--accentcolor: #12da84;
 }
