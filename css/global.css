@@ -1,0 +1,16 @@
+/* Color */
+/*
+#300354 60%
+#543003 30%
+#12DA84 10%
+*/
+:root {
+/* var(--primaryColor) !important; */
+--primarycolor: #300354
+
+/* var(--secondaryColor) !important; */
+--secondarycolor: #543054
+
+/* var(--accentColor) !important; */
+--accentcolor: #12da84
+}
