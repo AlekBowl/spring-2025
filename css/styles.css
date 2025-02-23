@@ -7,9 +7,9 @@ body {
 
 .blinn-fa-icon {
     font-size: 80px;
-    color:blue
+    color:white
 }
 
 .blinn-fa-container {
-    background-color: black;
+    background-color: var(--secondaryColor) !important;
 }
