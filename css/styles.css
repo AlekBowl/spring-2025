@@ -9,10 +9,7 @@ body {
     font-size: 80px;
     color:blue
 }
-.blinn-fa-container {
-    background-color: var(--accentColor) !important;
-}
 
 .blinn-fa-container {
-    background-color: var(--accentColor) !important;
+    background-color: black;
 }
