@@ -7,15 +7,6 @@ class Header extends HTMLElement {
       this.innerHTML = `
 
 
-class Header extends HTMLElement {
-    constructor() {
-      super();
-    }
-  
-    connectedCallback() {
-      this.innerHTML = `
-
-
       <header>
       <!-- begin navbar-->
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -56,12 +47,6 @@ class Header extends HTMLElement {
       </nav>
       <!-- end navbar-->
     </header>
-
-            `;
-    }
-  }
-  
-  customElements.define('header-component', Header);
 
             `;
     }
