@@ -3,8 +3,9 @@ h1, h2{
 }
 
 .navbar {
-    background-color: color;white !important;
+    background-color:white !important;
 }
 .blinn-footer-container {
     background-color: var(--primaryColor) !important;
+    padding: 50px
 }
