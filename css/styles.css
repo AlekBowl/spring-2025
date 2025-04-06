@@ -9,6 +9,9 @@ p {
     font-size: 65px;
     color:white
 }
+.blinn-fa-icon a{
+    color: white !important;
+}
 
 .blinn-fa-container {
     background-color: var(--secondaryColor) !important;
