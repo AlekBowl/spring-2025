@@ -36,7 +36,7 @@
 
             <!--Last Name  -->
             <div>
-              <label for="last-name">First Name</label>
+              <label for="last-name">Last Name</label>
               <input type="text" id="last-name" name="lastName" />
             </div>
             <!-- Age -- Number-->
@@ -54,13 +54,13 @@
             <!--phone -->
             <div>
               <label for="phone">Phone</label>
-              <input type="text" name="phone" placeholder="(###) ###-####" />
+              <input type="text" id="phone" name="phone" placeholder="(###) ###-####" />
             </div>
 
             <!-- Start date- date-->
             <div>
               <label for="start-date">Start Date</label>
-              <input type="date" name="startDate" required />
+              <input type="date" id="start-date" name="startDate" required />
             </div>
 
             <!-- Tshirt - Select field-->
@@ -68,17 +68,24 @@
               <label for="t-shirt">T-Shirt Size</label>
               <select id="t-shirt" required>
                 <option value="">Select T-shirt Size</option>
-                <option valu="XXS">XXS</option>
-                <option valu="XS">XS</option>
-                <option valu="S">S</option>
-                <option valu="M">M</option>
-                <option valu="L">L</option>
-                <option valu="XL">XL</option>
-                <option valu="XXL">XXL</option>
-                <option valu="XXXL">XXXL</option>
+                <option value="XXS">XXS</option>
+                <option value="XS">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+                <option value="XXXL">XXXL</option>
+                <option value="CUSTUM">CUSTOM</option>
               </select>
               <input type="text" name="custom" placeholder="Please input a custom size" disabled />
             </div>
+            <!-- Tshirt color - color-->
+            <div>
+              <label for="color">T-Shirt Color</label>
+              <input type="color" name="color" id="color" />
+            </div>
+
             <!-- Submit Button-->
             <div>
               <input type="submit" name="submit" value="Volunteer Now" />
