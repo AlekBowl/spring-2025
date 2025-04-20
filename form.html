@@ -34,6 +34,51 @@
               <input type="text" id="first-name" name="firstName" />
             </div>
 
+            <!--Last Name  -->
+            <div>
+              <label for="last-name">First Name</label>
+              <input type="text" id="last-name" name="lastName" />
+            </div>
+            <!-- Age -- Number-->
+            <div>
+              <label for="age">Age</label>
+              <input type="number" name="age" id="age" min="13" max="150" />
+            </div>
+
+            <!-- Email - email-->
+            <div>
+              <label fpr="email">Email</label>
+              <input type="email" name="email" />
+            </div>
+
+            <!--phone -->
+            <div>
+              <label for="phone">Phone</label>
+              <input type="text" name="phone" placeholder="(###) ###-####" />
+            </div>
+
+            <!-- Start date- date-->
+            <div>
+              <label for="start-date">Start Date</label>
+              <input type="date" name="startDate" required />
+            </div>
+
+            <!-- Tshirt - Select field-->
+            <div>
+              <label for="t-shirt">T-Shirt Size</label>
+              <select id="t-shirt" required>
+                <option value="">Select T-shirt Size</option>
+                <option valu="XXS">XXS</option>
+                <option valu="XS">XS</option>
+                <option valu="S">S</option>
+                <option valu="M">M</option>
+                <option valu="L">L</option>
+                <option valu="XL">XL</option>
+                <option valu="XXL">XXL</option>
+                <option valu="XXXL">XXXL</option>
+              </select>
+              <input type="text" name="custom" placeholder="Please input a custom size" disabled />
+            </div>
             <!-- Submit Button-->
             <div>
               <input type="submit" name="submit" value="Volunteer Now" />
@@ -58,5 +103,8 @@
       <!-- local js file with Footer -->
       <script src="components/js/footer.js"></script>
     </section>
+
+    <!-- locl js file for form-->
+    <script src="/js/scripts.js"></script>
   </body>
 </html>
