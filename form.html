@@ -53,6 +53,7 @@
 
             <!--phone -->
             <div>
+              =
               <label for="phone">Phone</label>
               <input type="text" id="phone" name="phone" placeholder="(###) ###-####" />
             </div>
@@ -85,7 +86,48 @@
               <label for="color">T-Shirt Color</label>
               <input type="color" name="color" id="color" />
             </div>
+            <!-- Background check upload file -->
+            <div>
+              <label for="background-check">Bachground Check</label>
+              <input type="file" id="background-check" accpect=".pdf" />
+            </div>
 
+            <!-- Participting in - Radio Button-->
+            <div>
+              <stong> Participting In</stong><br />
+
+              <input type="radio" name="Particiption" id="Sport" value="Sport" required />
+              <label for="sport">Sports</label>
+
+              <input type="radio" name="Particiption" id="donations" value="Donations" required />
+              <label for="sport">Donations</label>
+
+              <input type="radio" name="Particiption" id="expectator" value="Expectator" required />
+              <label for="sport">Expectator</label>
+            </div>
+
+            <!--time of day - checkbox fields -->
+            <div>
+              <strong>Time of day</strong><br />
+
+              <input type="checkbox" name="timeOfday" id="time-of-day-moring" value="Morning" required />
+              <label for="time-of-day-moring">Morning</label>
+              <input type="checkbox" name="timeOfday" id="time-of-day-afternoon" value="Afternoon" required />
+              <label for="time-of-day-afternoon">Afternoon</label>
+              <input type="checkbox" name="timeOfday" id="time-of-day-evening" value="Evening" required />
+              <label for="time-of-day-evening">Evening</label>
+            </div>
+            <!-- Comments -->
+            <div>
+              <label for="about-you">Tell us about you</label>
+              <textarea name="about-you" id="about-you"></textarea>
+            </div>
+
+            <!-- Term and Conditions - Checkbox with toggle switch-->
+            <div>
+              <input type="checkbox" name="terms" id="terms-and-conditions" value="yes" />
+              <label for="terms-and-conditions">I Accept the Terms and Conditions</label>
+            </div>
             <!-- Submit Button-->
             <div>
               <input type="submit" name="submit" value="Volunteer Now" class="submit" />
